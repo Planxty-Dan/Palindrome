@@ -24,9 +24,10 @@ public class Palindrome {
 
             userInput = userInput.toLowerCase();
             userInput = userInput.replaceAll(" ", "");
-            System.out.println(userInput);
+            //System.out.println(userInput);
+
             reverseInput = new StringBuffer(userInput).reverse().toString();
-            System.out.println(reverseInput);
+            //System.out.println(reverseInput);
 
             if (userInput.equals(reverseInput))
                 System.out.println("That is a palindrome, yay!");
